@@ -14,3 +14,6 @@ let y = 2;
 alert (x + y);
 alert (x * y);
 alert (x / y); // задание 4
+
+alert (2**5); // задание 5
+
