@@ -30,5 +30,25 @@ num++;
 num--;
 alert (num); // задание 7
 
-let age = prompt ('сколько Вам лет?');
-alert (age); // задание 7
+let Age = prompt ('сколько Вам лет?');
+alert (Age); // задание 8
+
+let user = {
+    name: 'Nastya',
+    age: 26,
+    isAdmin: true,
+}; // задание 9.0
+
+user["city of residence"] = 'Moscow'; // задание 9.1
+
+user.age = 30; // задание 9.2
+
+delete user["city of residence"]; // задание 9.3
+
+let info = prompt ("Какую информацию хотите узнать о пользователе?");
+alert (user[info]); // задание 9.4
+
+
+
+
+
