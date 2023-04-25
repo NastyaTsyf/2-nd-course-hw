@@ -6,3 +6,5 @@ alert (a); // задание 1
 let year = 2007;
 alert (year); // задание 2
 
+let name = "Брендан Эйх";
+alert (name); // задание 3
