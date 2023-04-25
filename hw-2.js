@@ -50,6 +50,3 @@ alert (user[info]); // задание 9.4
 
 let yourName = prompt ('как Вас зовут?');
 alert (`Привет, ${yourName}!`); // задание 10
-
-
-
