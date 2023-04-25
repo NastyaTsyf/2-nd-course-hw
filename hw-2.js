@@ -6,5 +6,11 @@ alert (a); // задание 1
 let year = 2007;
 alert (year); // задание 2
 
-let name = "Брендан Эйх";
-alert (name); // задание 3
+let creatorName = "Брендан Эйх";
+alert (creatorName); // задание 3
+
+let x = 10;
+let y = 2;
+alert (x + y);
+alert (x * y);
+alert (x / y); // задание 4
