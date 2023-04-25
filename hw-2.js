@@ -6,7 +6,7 @@ alert (A); // задание 1
 let year = 2007;
 alert (year); // задание 2
 
-let creatorName = "Брендан Эйх";
+let creatorName = 'Брендан Эйх';
 alert (creatorName); // задание 3
 
 let x = 10;
@@ -29,3 +29,6 @@ num /= 3;
 num++;
 num--;
 alert (num); // задание 7
+
+let age = prompt ('сколько Вам лет?');
+alert (age); // задание 7
