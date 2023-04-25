@@ -20,3 +20,12 @@ alert (2**5); // задание 5
 let a = 9;
 let b = 2;
 alert (a % b); // задание 6
+
+let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
+alert (num); // задание 7
