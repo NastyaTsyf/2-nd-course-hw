@@ -65,6 +65,11 @@ a {
         background: #9C0332;
         border-radius: 30px;
         border: none;
+        transition: all 0.3s;
+    }
+
+    &__button:hover {
+        background: #EB443F;
     }
 
 }
@@ -88,6 +93,7 @@ a {
             align-items: flex-end;
             padding-bottom: 32px;
             padding-left: 32px;
+            transition: all 0.1s;
 
             &--1 {
                 background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game1.jpg);
@@ -110,6 +116,10 @@ a {
                 background-position: center;
                 background-size: cover;
             }
+        }
+
+        &__item:hover {
+            border: 3px solid #44D2FF;
         }
 
         &__item-title {
@@ -162,6 +172,11 @@ a {
             background: #9C0332;
             border-radius: 30px;
             border: none;
+            transition: all 0.3s;
+        }
+
+        &__button:hover {
+            background: #EB443F;
         }
     
         &__img {
