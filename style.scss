@@ -34,11 +34,11 @@ a {
         font-size: 64px;
         line-height: 78px;
         color: #FFFFFF;
-        width: 789px;
+        max-width: 789px;
     }
 
     &__text-box {
-        width: 480px;
+        max-width: 480px;
         margin-top: 32px;
         margin-bottom: 44px;
     }
@@ -125,3 +125,4 @@ a {
 
 }
 
+@import 'mobile'
