@@ -32,3 +32,13 @@ let obj = {
 for (let key in obj) {
     alert(`${key} — зарплата ${obj[key]} долларов.`)
 }
+
+//Задание 5
+
+let n = 1000;
+let iterationNum = 0;
+for (; n > 50; n = n / 2) {
+    iterationNum++;
+}
+alert(`конечное число ${n}, количество итераций ${iterationNum}`);
+
