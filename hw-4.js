@@ -20,3 +20,15 @@ while (b <= 22) {
     console.log(b);
     b++;
 }
+
+//Задание 4
+
+let obj = {
+    Коля: 200,
+    Вася: 300,
+    Петя: 400,
+};
+
+for (let key in obj) {
+    alert(`${key} — зарплата ${obj[key]} долларов.`)
+}
