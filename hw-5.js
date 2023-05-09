@@ -7,7 +7,7 @@ function chooseMore(a, b) {
     } else {
         console.log (b);
     }
-}
+};
 
 chooseMore(5, 8);
 chooseMore(5, 5);
@@ -20,7 +20,7 @@ function checkParity(n) {
     } else {
         console.log ('Число нечетное');
     }
-}
+};
 
 checkParity(9);
 
@@ -51,7 +51,7 @@ const greet = () => {
     } else {
         console.log ('Вы ввели неправильное значение');
     }
-}
+};
 
 greet();
 
@@ -83,3 +83,32 @@ const calcСube = () => {
 };
 
 calcСube();
+
+//Задание 7
+
+function getCircleArea() {
+    return this.radius ** 2 * Math.PI;
+};
+
+function getCirclePerimeter() {
+    return this.radius * 2 * Math.PI;
+};
+
+const circle1 = {
+    radius: 10,
+
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
+};
+
+const circle2 = {
+    radius: 20,
+
+    getArea: getCircleArea,
+    getPerimeter: getCirclePerimeter,
+};
+
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
