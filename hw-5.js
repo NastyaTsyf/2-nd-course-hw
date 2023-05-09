@@ -38,3 +38,21 @@ const returnSquare = (x) => {
     return x ** 2;
 };
 console.log (returnSquare(5));
+
+//Задание 4
+
+let age = prompt ('Сколько Вам лет');
+
+const greet = () => {
+    if (age >= 0 && age <= 12) {
+        console.log ('Привет, друг!');
+    } else if (age >= 13) {
+        console.log ('Добро пожаловать!');
+    } else {
+        console.log ('Вы ввели неправильное значение');
+    }
+}
+
+greet();
+
+
