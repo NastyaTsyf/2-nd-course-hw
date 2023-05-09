@@ -55,4 +55,17 @@ const greet = () => {
 
 greet();
 
+//Задание 5
 
+let b = prompt ('Введите первое число');
+let c = prompt ('Введите второе число');
+
+const checkNumbers = () => {
+    if (isNaN(b) == true || isNaN(c) == true ) {
+        console.log ('Одно или оба значения не являются числом');
+    } else {
+        console.log (b * c);
+    }
+};
+
+checkNumbers();
