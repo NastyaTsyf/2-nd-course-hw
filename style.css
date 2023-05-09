@@ -116,10 +116,10 @@ a {
 
 .game {
   background: #000915;
-  padding-top: 282px;
-  padding-bottom: 282px;
 }
 .game .game-box {
+  padding-top: 282px;
+  padding-bottom: 282px;
   display: flex;
   gap: 135px;
 }
@@ -128,6 +128,10 @@ a {
   flex-direction: column;
   gap: 32px;
   max-width: 584px;
+}
+.game .game-box__content--puzzles {
+  max-width: 1200px;
+  align-items: center;
 }
 .game .game-box__title {
   font-weight: 700;
@@ -140,6 +144,9 @@ a {
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
+}
+.game .game-box__text--puzzles {
+  text-align: center;
 }
 .game .game-box__button {
   font-weight: 400;
@@ -159,6 +166,34 @@ a {
 .game .game-box__img {
   max-width: 485px;
   max-height: 333px;
+}
+.game .game-box--memorize-the-words {
+  flex-direction: row-reverse;
+}
+.game .game-box--puzzles {
+  display: block;
+  padding-top: 276px;
+  background: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/gameback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #000915;
+  box-sizing: border-box;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
@@ -203,10 +238,6 @@ a {
   .content .catalog__item {
     grid-column: 1/-1;
     height: 300px;
-  }
-  .game {
-    padding-top: 51px;
-    padding-bottom: 85px;
   }
   .game .game-box {
     flex-wrap: wrap;

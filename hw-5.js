@@ -1,4 +1,4 @@
-"use strict"
+use strict
 //Задание 1
 
 function chooseMore(a, b) {

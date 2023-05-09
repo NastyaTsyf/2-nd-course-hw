@@ -53,8 +53,6 @@
     }
 
     .game {
-        padding-top: 51px;
-        padding-bottom: 85px;
     
         .game-box {
             flex-wrap: wrap;
@@ -82,12 +80,13 @@
                 line-height: 22px;
                 text-align: center;
             }
-    
         
             &__img {
                 max-width: 344px;
                 max-height: 236px;
             }
+
+
         }
     
     
