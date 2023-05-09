@@ -69,3 +69,17 @@ const checkNumbers = () => {
 };
 
 checkNumbers();
+
+//Задание 6
+
+let y = prompt ('Введите число');
+
+const calcСube = () => {
+    if (isNaN(y) == true) {
+        console.log ('Переданный параметр не является числом');
+    } else {
+        console.log (`${y} в кубе равняется ${y ** 3}`);
+    }
+};
+
+calcСube();
