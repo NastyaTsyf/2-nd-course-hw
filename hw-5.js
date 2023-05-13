@@ -61,7 +61,7 @@ let b = prompt ('Введите первое число');
 let c = prompt ('Введите второе число');
 
 const checkNumbers = () => {
-    if (isNaN(b) == true || isNaN(c) == true ) {
+    if (isNaN(b) || isNaN(c) ) {
         console.log ('Одно или оба значения не являются числом');
     } else {
         console.log (b * c);
@@ -75,7 +75,7 @@ checkNumbers();
 let y = prompt ('Введите число');
 
 const calcСube = () => {
-    if (isNaN(y) == true) {
+    if (isNaN(y)) {
         console.log ('Переданный параметр не является числом');
     } else {
         console.log (`${y} в кубе равняется ${y ** 3}`);
