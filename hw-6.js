@@ -9,3 +9,13 @@ for (let item of numbers) {
     }
 };
 
+// Задание 2
+
+let array = [1, 5, 4, 10, 0, 3];
+
+array.forEach((el, index) => {
+    if (el == 4) {
+        console.log(`Поиция числа 4 - ${index}`);
+    }
+});
+
