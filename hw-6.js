@@ -24,3 +24,18 @@ array.forEach((el, index) => {
 let arr = [1, 3, 5, 10, 20];
 arr = arr.join([' ']);
 console.log(arr);
+
+// Задание 4
+
+let multArr = [];
+
+for (let a = 0; a < 3; a++) {
+    multArr[a] = [];
+
+    for (let b = 0; b < 3; b++) {
+        const element = array[b];
+        multArr[a].push(1);
+    };
+};
+console.log(multArr);
+
