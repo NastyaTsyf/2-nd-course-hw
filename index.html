@@ -33,25 +33,59 @@
             </div>
         </div>
     </section>
-    <section class="game center">
-        <div class="game__box game-box">
+
+    <section class="game">
+        <div class="center game__box game-box ">
             <div class="game-box__content">
                 <h2 class="game-box__title">Времена года <span class="game-box__exclamation-point">!</span></h2> 
                 <div class="game-box__text-box">
                     <p class="game-box__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
                 </div>
                 <div class="game-box__button-box">
-                    <button type="submit" class="game-box__button">Играть!</button>
+                    <button onclick="showSeason()" type="submit" class="game-box__button">Играть!</button>
                 </div>
             </div>
             <div class="game-box__img-box">
                 <img class="game-box__img" src="img/gameimg1.svg" alt="game-img">
             </div>
         </div>
+
+        <div class="center game__box game-box game-box--memorize-the-words">
+            <div class="game-box__content">
+                <h2 class="game-box__title">Запомни слова  <span class="game-box__exclamation-point">!</span></h2> 
+                <div class="game-box__text-box">
+                    <p class="game-box__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                </div>
+                <div class="game-box__button-box">
+                    <button type="submit" class="game-box__button">Играть</button>
+                </div>
+            </div>
+            <div class="game-box__img-box">
+                <img class="game-box__img" src="img/gameimg2.svg" alt="game-img">
+            </div>
+        </div>
+
+        <div class="center game__box game-box game-box--puzzles">
+            <div class="game-box__content game-box__content--puzzles">
+                <h2 class="game-box__title">Игра в загадки<span class="game-box__exclamation-point">!</span></h2> 
+                <div class="game-box__text-box">
+                    <p class="game-box__text game-box__text--puzzles">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+                </div>
+                <div class="game-box__button-box">
+                    <button type="submit" class="game-box__button">Играть!</button>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <footer class="footer center">
+        <div class="footer__content">
+            <h3 class="footer__text">Все права защищены</h3>
+        </div>
 
+    </footer>
     <!--<script src="hw-3.js"></script>-->
-    <script src="hw-4.js"></script>
+    <!--<script src="hw-4.js"></script>-->
+    <script src="hw-5.js"></script>
 </body>
 </html>

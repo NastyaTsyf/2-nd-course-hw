@@ -133,11 +133,10 @@ a {
 
 .game {
     background: #000915;
-    padding-top: 282px;
-    padding-bottom: 282px;
 
     .game-box {
-
+        padding-top: 282px;
+        padding-bottom: 282px;
         display: flex;
         gap: 135px;
 
@@ -146,6 +145,11 @@ a {
             flex-direction: column;
             gap: 32px;
             max-width: 584px;
+
+            &--puzzles {
+                max-width: 1200px;
+                align-items: center
+            }
         }
 
         &__title {
@@ -160,6 +164,10 @@ a {
             font-size: 18px;
             line-height: 32px;
             color: #FFFFFF;
+            
+            &--puzzles {
+                text-align: center;
+            }
         }
 
         &__button {
@@ -183,8 +191,44 @@ a {
             max-width: 485px;
             max-height: 333px;
         }
+
+        &--memorize-the-words {
+            flex-direction: row-reverse
+        }
+
+        &--puzzles {
+            display: block;
+            padding-top: 276px;
+            background: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/gameback.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+
     }
 
+
+}
+
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #000915;
+    box-sizing: border-box;
+
+
+    &__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
 
 }
 
