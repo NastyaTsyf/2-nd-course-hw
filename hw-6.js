@@ -44,3 +44,11 @@ console.log(multArr);
 let numArr = [1, 1, 1];
 numArr.push(2, 2, 2);
 console.log(numArr);
+
+// Задание 6
+
+let sortedArr = [9, 8, 7, 'a', 6, 5];
+sortedArr.sort();
+sortedArr.pop();
+console.log(sortedArr);
+
