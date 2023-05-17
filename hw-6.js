@@ -39,3 +39,8 @@ for (let a = 0; a < 3; a++) {
 };
 console.log(multArr);
 
+// Задание 5
+
+let numArr = [1, 1, 1];
+numArr.push(2, 2, 2);
+console.log(numArr);
