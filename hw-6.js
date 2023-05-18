@@ -78,3 +78,15 @@ line = line.split('');
 line = line.reverse();
 line = line.join('');
 console.log(line);
+
+// Задание 9
+
+let twoDimArr = [[1, 2, 3,],[4, 5, 6]];
+let oneDimArr = [];
+
+for (let i = 0; i < twoDimArr.length; i++) {
+    for (let j = 0; j < twoDimArr[i].length; j++) {
+        oneDimArr.push(twoDimArr[i][j]);
+    }
+}
+console.log(oneDimArr);
