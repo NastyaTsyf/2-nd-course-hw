@@ -57,9 +57,7 @@ console.log(sortedArr);
 let num = prompt('Введите число от 1 до 10');
 let checkArr = [9, 8, 7, 6, 5];
 let isPresent = checkArr.includes(num);
-console.log(`число ${num есть в массиве}`);
-
-
+console.log(`число ${num} есть в массиве`);
 
 // Задание 8
 
@@ -92,6 +90,10 @@ for (let i = 0; i < randomArr.length - 1; i++) {
 
 // Задание 11
 
-let const calcSq = (params) => {
+const calcSq = (x) => {
+    return x.map(el => el ** 2);
     
-}
+};
+
+let uuu = [7, 9, 15, 99, 4, 3]
+console.log(calcSq(uuu));
