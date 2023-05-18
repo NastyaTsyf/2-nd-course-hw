@@ -95,17 +95,15 @@ const calcSq = (x) => {
     
 };
 
-let uuu = [7, 9, 15, 99, 4, 3]
+let uuu = [7, 9, 15, 99, 4, 3];
 console.log(calcSq(uuu));
 
 // Задание 12
 
-let getLengthWords = () => {
-   return y.split('');
-
-}
-
-console.log(getLengthWords['dtfgf', 'dylo;lpp', '']);
+function getLengthWords(wordArr) {
+    return wordArr.map((item) => item.length);
+};
+console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
 
 // Задание 13
 
