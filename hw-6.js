@@ -52,3 +52,29 @@ sortedArr.sort();
 sortedArr.pop();
 console.log(sortedArr);
 
+// Задание 7
+
+let num = prompt('Введите число от 1 до 10');
+let checkArr = [9, 8, 7, 6, 5];
+
+if (num >= 1 && num <= 10) {
+    for (let i = 0; i < checkArr.length; i++) {
+        if (checkArr[i] == num) break; 
+            console.log(`Число ${num} есть в массиве`);
+     //else 
+            //console.log(`Числа ${num} нет в массиве`);
+    
+}
+} else {
+    console.log(`Неверный ввод`);
+};
+
+
+
+// Задание 8
+
+let line = 'abcdef';
+line = line.split('');
+line = line.reverse();
+line = line.join('');
+console.log(line);
