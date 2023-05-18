@@ -90,3 +90,12 @@ for (let i = 0; i < twoDimArr.length; i++) {
     }
 }
 console.log(oneDimArr);
+
+
+// Задание 10
+
+let randomArr = [10, 5, 1, 8, 5, 9, 5, 7];
+for (let i = 0; i < randomArr.length - 1; i++) {
+    randomArr[i] = randomArr[i] + randomArr[i+1];
+    console.log(randomArr[i])
+}
