@@ -56,18 +56,8 @@ console.log(sortedArr);
 
 let num = prompt('Введите число от 1 до 10');
 let checkArr = [9, 8, 7, 6, 5];
-
-if (num >= 1 && num <= 10) {
-    for (let i = 0; i < checkArr.length; i++) {
-        if (checkArr[i] == num) break; 
-            console.log(`Число ${num} есть в массиве`);
-     //else 
-            //console.log(`Числа ${num} нет в массиве`);
-    
-}
-} else {
-    console.log(`Неверный ввод`);
-};
+let isPresent = checkArr.includes(num);
+console.log(`число ${num есть в массиве}`);
 
 
 
@@ -98,4 +88,10 @@ let randomArr = [10, 5, 1, 8, 5, 9, 5, 7];
 for (let i = 0; i < randomArr.length - 1; i++) {
     randomArr[i] = randomArr[i] + randomArr[i+1];
     console.log(randomArr[i])
+}
+
+// Задание 11
+
+let const calcSq = (params) => {
+    
 }
