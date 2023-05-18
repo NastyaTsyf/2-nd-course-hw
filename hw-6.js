@@ -97,3 +97,21 @@ const calcSq = (x) => {
 
 let uuu = [7, 9, 15, 99, 4, 3]
 console.log(calcSq(uuu));
+
+// Задание 12
+
+let getLengthWords = () => {
+   return y.split('');
+
+}
+
+console.log(getLengthWords['dtfgf', 'dylo;lpp', '']);
+
+// Задание 13
+
+function filterPositive(array) {
+   return array.filter(item => item < 0)
+  }
+  
+  console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
+  console.log(filterPositive([-25, 25, 0, -1000, -2])); // => [-25, -1000, -2]
