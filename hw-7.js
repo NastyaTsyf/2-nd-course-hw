@@ -48,6 +48,16 @@ getRandom();
 
 //Задание 6
 
+let getRandomArrNumbers = (y) => {
+    let arr = [];
+    for (let i = 0; i < Math.round(y / 2); i++) {
+        arr.push(Math.round(Math.random() * y));
+    }
+    console.log(arr);
+}
+
+getRandomArrNumbers(10);
+
 
 //Задание 7
 
@@ -70,4 +80,7 @@ console.log(myDate);
 let currentDate = new Date();
 currentDate.setDate(currentDate.getDate() + 75);
 console.log(currentDate);
+
+
+//Задание 10
 
