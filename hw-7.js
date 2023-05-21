@@ -60,3 +60,7 @@ let randomNum = (max, min) => {
 
 randomNum(4.8855, 98.9522);
 
+//Задание 7
+
+let myDate = new Date("05/21/2023");
+console.log(myDate);
