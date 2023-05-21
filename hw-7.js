@@ -94,3 +94,22 @@ const showDate = (enteredDate) => {
 }
 
 showDate(new Date());
+
+//Задание 11
+
+let memorizeTheWords = () => {
+    let gameArr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+gameArr = gameArr.sort(() => Math.random() - 0.5);
+alert(gameArr);
+
+firstWord = prompt('Чему равнялся первый элемент массива?');
+lastWord = prompt('Чему равнялся последний элемент массива?');
+
+if (firstWord.toLowerCase() == gameArr[0].toLowerCase() && lastWord.toLowerCase() == gameArr[gameArr.length - 1].toLowerCase() ) {
+    alert('Поздравляем! Вы угадали оба элемента!')
+} else if (firstWord.toLowerCase() == gameArr[0].toLowerCase() || lastWord.toLowerCase() == gameArr[gameArr.length - 1].toLowerCase() ) {
+    alert('Вы были близки к победе!')
+} else {
+	alert('Вы ответили неверно');
+}  
+}
