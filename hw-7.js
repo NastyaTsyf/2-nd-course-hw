@@ -25,3 +25,12 @@ console.log(min);
 
 let max = Math.max(52, 53, 49, 77, 21, 32);
 console.log(max);
+
+//Задание 5
+
+let getRandom = (a) => {
+    a = Math.random() * 10;
+    console.log(a);
+};
+
+getRandom();
