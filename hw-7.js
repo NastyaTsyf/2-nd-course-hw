@@ -11,9 +11,17 @@ console.log(jsStr);
 //Задание 3
 
 let num = 32.58884;
-less = Math.floor(num);
+let less = Math.floor(num);
 console.log(less);
-more = Math.ceil(num);
+let more = Math.ceil(num);
 console.log(more);
-whole = Math.round(num);
+let whole = Math.round(num);
 console.log(whole);
+
+//Задание 4
+
+let min = Math.min(52, 53, 49, 77, 21, 32);
+console.log(min);
+
+let max = Math.max(52, 53, 49, 77, 21, 32);
+console.log(max);
