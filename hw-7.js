@@ -45,3 +45,18 @@ let getRandom = (a) => {
 };
 
 getRandom();
+
+//Задание 6
+
+
+//Задание 7
+
+let randomNum = (max, min) => {
+    max = Math.round(max);
+    min = Math.round(min);
+    let a = Math.round(Math.random() * (max - min)) + min;
+    console.log(a);
+}
+
+randomNum(4.8855, 98.9522);
+
