@@ -84,3 +84,13 @@ console.log(currentDate);
 
 //Задание 10
 
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+const showDate = (enteredDate) => {
+
+    let date = "Дата:" + " " + enteredDate.getDate() + " " + months[enteredDate.getMonth()] + " " + enteredDate.getFullYear() + " " + "- это" + " " + days[enteredDate.getDay()] + "." + " " + "Время:" + enteredDate.getHours() + ":" + enteredDate.getMinutes() + ":" + enteredDate.getSeconds();
+    console.log(date);
+}
+
+showDate(new Date());
