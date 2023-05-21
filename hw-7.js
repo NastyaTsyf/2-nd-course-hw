@@ -6,7 +6,18 @@ console.log(jsStr);
 
 //Задание 2
 
+let searchStart = (arr, str) => {
+    arr = arr.filter((el => {
+            if (el.toLowerCase().startsWith(str.toLowerCase())) {
+                return el
+            }
+        }))
+    console.log(arr);
+}
 
+searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'); // ['кошка', 'комар']
+searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'); // ['груша']
+searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'); // []
 
 //Задание 3
 
