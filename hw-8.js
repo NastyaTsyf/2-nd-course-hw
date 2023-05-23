@@ -27,12 +27,12 @@ const people = [
 const timer = (deadline) => {
 	const interval = setInterval(() => {
 		console.log(new Date());
-	}, 1000);
+	}, 3000);
 
 	setTimeout(() => {
     clearInterval(interval);
     console.log('30 секунд прошло')
-  }, deadline * 1000)
+  }, deadline * 3000)
 };
 
-timer(30);
+timer(10);
