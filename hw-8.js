@@ -17,4 +17,22 @@ const people = [
     return 0;
   }));
 
-  
+//задание 2
+
+
+    
+
+//задание 3
+
+const timer = (deadline) => {
+	const interval = setInterval(() => {
+		console.log(new Date());
+	}, 1000);
+
+	setTimeout(() => {
+    clearInterval(interval);
+    console.log('30 секунд прошло')
+  }, deadline * 1000)
+};
+
+timer(30);
